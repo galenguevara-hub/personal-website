@@ -288,9 +288,13 @@ img {
   width: 14px;
   height: 14px;
   border-radius: 50%;
-  background: var(--color-accent);
-  border: 3px solid var(--color-bg-alt);
-  box-shadow: 0 0 0 3px var(--color-accent);
+  object-fit: cover;
+  background: white;
+  border: 2px solid #e2e8f0;
+}
+
+.timeline__marker--logo {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .timeline__card {
@@ -393,11 +397,6 @@ img {
   padding: 3px 10px;
   border-radius: 20px;
   letter-spacing: 0.02em;
-}
-
-.timeline__marker--edu {
-  background: var(--color-text-secondary);
-  box-shadow: 0 0 0 3px var(--color-text-secondary);
 }
 
 /* ─────────────────────────────────────────
