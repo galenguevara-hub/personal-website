@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galen Guevara — Product Manager</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ─── Navigation ─── -->
+  <nav class="nav" id="nav">
+    <a href="#home" class="nav__logo">GG</a>
+    <ul class="nav__links">
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact" class="nav__cta">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ─── Hero ─── -->
+  <section class="hero" id="home">
+    <div class="hero__content">
+      <h1 class="hero__name">Galen Guevara</h1>
+      <h2 class="hero__title">Senior Technical Product Manager</h2>
+      <p class="hero__tagline">
+        10+ years building products at scale — from employee-facing platforms serving 1.6M users to B2B applications generating $20M+ in annual revenue. Turning complex technical challenges into clear, user-centered solutions.
+      </p>
+      <div class="hero__actions">
+        <a href="#experience" class="btn btn--primary">View My Work</a>
+        <a href="#contact" class="btn btn--ghost">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Experience Timeline ─── -->
+  <section class="section section--alt" id="experience">
+    <div class="container">
+      <h2 class="section__title">Experience</h2>
+      <p class="section__subtitle">A track record of shipping products that matter</p>
+
+      <div class="timeline">
+
+        <div class="timeline__item">
+          <div class="timeline__marker"></div>
+          <div class="timeline__card">
+            <div class="timeline__header">
+              <div>
+                <h3 class="timeline__role">Senior Product Manager - Technical</h3>
+                <p class="timeline__company">Amazon Web Services (AWS)</p>
+              </div>
+              <span class="timeline__date">Jun 2025 – Present</span>
+            </div>
+            <div class="timeline__products">
+              <span class="timeline__product">Pulse</span>
+            </div>
+            <ul class="timeline__details">
+              <li>Led pan-Amazon expansion of Amazon's 1P survey and forms tool, Pulse, growing MAU from <span class="metric-highlight">4K to 15K+</span> by shipping features including display logic, survey gating, the Pulse API, AI Workflows, and multi-language support to achieve feature parity with competing tools</li>
+              <li>Launched the Pulse API for programmatic access to survey data — <span class="metric-highlight">30+ teams</span> onboarded, closing a major feature gap vs. other survey tools</li>
+              <li>Shipped AI Workflows enabling customers to automate post-survey processes with AI agents, including sentiment analysis, content moderation, summarization, translation, and custom agents</li>
+              <li>Built an agentic Slackbot connected to a product knowledge wiki that autonomously answers user questions — reduced team follow-up messages by <span class="metric-highlight">+50%</span></li>
+              <li>Led an LLM and machine translation eval to select the automated translation system for Pulse — formulated the testing methodology, identified baseline metrics, and delivered the final model recommendation. One of the first comprehensive evals done by the CIX team</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__marker"></div>
+          <div class="timeline__card">
+            <div class="timeline__header">
+              <div>
+                <h3 class="timeline__role">Senior Product Manager – Technical</h3>
+                <p class="timeline__company">Amazon</p>
+              </div>
+              <span class="timeline__date">2021 – Jun 2025</span>
+            </div>
+            <div class="timeline__products">
+              <span class="timeline__product">Time Off Mobile & Web Apps</span>
+              <span class="timeline__product">1P Termination Tool</span>
+            </div>
+            <ul class="timeline__details">
+              <li>Sole owner of employee-facing time off products across all of Amazon's <span class="metric-highlight">1.6M employees</span></li>
+              <li>Led the launch of a mobile product unifying time off and leave management for <span class="metric-highlight">1.2M+ employees</span> — driving a <span class="metric-highlight">54% increase</span> in self-service adoption, reducing <span class="metric-highlight">82K employee contacts</span> annually, and avoiding <span class="metric-highlight">26 FTE hires</span></li>
+              <li>Delivered unified product &amp; tech design using interoperable APIs across <span class="metric-highlight">5 systems and 3 internal organizations</span>, supporting <span class="metric-highlight">30+ countries and 15 languages</span></li>
+              <li>Led a punch-to-pay payroll migration for <span class="metric-highlight">2K employees and 200 managers</span> in Morocco, cutting the historical pay defect rate by <span class="metric-highlight">50% (500 bps → 250 bps)</span></li>
+              <li>Led the build and global launch of the 1P Termination Tool (1PTT) across all <span class="metric-highlight">66 Amazon countries</span> — deprecating PeopleSoft's termination UX and completing a PXT leadership team goal</li>
+              <li>Shipped a termination validation experience with configurable checks that reduced reinstatements <span class="metric-highlight">29% YoY</span> — deployed across both HRSC and A-to-Z Manager Hub</li>
+              <li>Built country-specific data and document collection spanning <span class="metric-highlight">66 countries</span> with EDM integration for secure storage, and launched bulk terminations to deprecate PeopleSoft Job Data Upload</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__marker"></div>
+          <div class="timeline__card">
+            <div class="timeline__header">
+              <div>
+                <h3 class="timeline__role">Manager, People Advisory Services</h3>
+                <p class="timeline__company">Ernst &amp; Young LLP</p>
+              </div>
+              <span class="timeline__date">2015 – 2021</span>
+            </div>
+            <div class="timeline__products">
+              <span class="timeline__product">Global Payroll Strategy Optimizer</span>
+            </div>
+            <ul class="timeline__details">
+              <li>PM for a B2B global payroll cost modeling application — scaled to <span class="metric-highlight">10+ enterprise clients</span> generating <span class="metric-highlight">$5M in direct annual revenue and $15M in pull-through revenue</span></li>
+              <li>Led <span class="metric-highlight">15–20 remote engineers, designers, and QA testers</span> through development sprints, delivering <span class="metric-highlight">$70M+ in aggregate 5-year NPV savings</span> for clients</li>
+              <li>Co-founded a Future of Work AI/ML/Blockchain incubation lab with <span class="metric-highlight">$3.2M in executive funding</span>, in partnership with MIT</li>
+              <li>Built an HR M&amp;A platform integrated with PeopleSoft, Workday, and SAP SuccessFactors — deployed for a <span class="metric-highlight">$130B transaction</span> targeting <span class="metric-highlight">$3.3B in merger savings</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__marker timeline__marker--edu"></div>
+          <div class="timeline__card">
+            <div class="timeline__header">
+              <div>
+                <h3 class="timeline__role">B.S. Industrial &amp; Labor Relations</h3>
+                <p class="timeline__company">Cornell University, ILR School</p>
+              </div>
+              <span class="timeline__date">2011 – 2015</span>
+            </div>
+            <ul class="timeline__details">
+              <li>Minor in Law and Society · Dean's List (<span class="metric-highlight">3 semesters</span>)</li>
+              <li>Rawlings Cornell Presidential Research Scholarship — built regression models for MLB salary arbitration outcomes</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Projects / Case Studies ─── -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section__title">Projects</h2>
+      <p class="section__subtitle">A few things I've built and shipped</p>
+
+      <div class="projects">
+
+        <article class="project-card">
+          <div class="project-card__tag">Featured Project</div>
+          <h3 class="project-card__title">Pulse — Survey Platform</h3>
+          <p class="project-card__company">Amazon Web Services (AWS)</p>
+          <p class="project-card__description">
+            Expanded Amazon's internal survey platform pan-Amazon, shipping a full feature suite — Pulse API, AI Workflows, multi-language support, document uploads, and an agentic Slackbot — to achieve feature parity with competing 1P tools and scale across the organization.
+          </p>
+          <div class="project-card__meta">
+            <span class="project-card__metric">📈 175% MAU growth (4K → 11K+)</span>
+            <span class="project-card__metric">🤖 300 hrs saved via AI Workflows</span>
+          </div>
+          <div class="project-card__tags">
+            <span class="tag">Pan-Amazon Expansion</span>
+            <span class="tag">AI Workflows</span>
+            <span class="tag">API Design</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__tag">Case Study</div>
+          <h3 class="project-card__title">1P Termination Tool</h3>
+          <p class="project-card__company">Amazon</p>
+          <p class="project-card__description">
+            Built Amazon's core HR termination platform from the ground up and launched it across all 66 global countries — deprecating PeopleSoft's termination UX. Introduced configurable validation, bulk terminations, and country-specific data and document collection with EDM integration.
+          </p>
+          <div class="project-card__meta">
+            <span class="project-card__metric">🌍 66 countries launched</span>
+            <span class="project-card__metric">📉 29% YoY reinstatement reduction</span>
+          </div>
+          <div class="project-card__tags">
+            <span class="tag">Global Expansion</span>
+            <span class="tag">HR Platform</span>
+            <span class="tag">PeopleSoft Deprecation</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__tag">Case Study</div>
+          <h3 class="project-card__title">Time Off Mobile Platform</h3>
+          <p class="project-card__company">Amazon</p>
+          <p class="project-card__description">
+            Unified time off and leave management for 1.2M+ Amazon employees into a single mobile experience. Pulled data from 5 internal systems across 3 organizations, supporting 30+ countries and 15 languages — and drove a record-high satisfaction score of 4.13/5.0.
+          </p>
+          <div class="project-card__meta">
+            <span class="project-card__metric">📈 54% self-service adoption increase</span>
+            <span class="project-card__metric">📞 82K fewer contacts / year</span>
+          </div>
+          <div class="project-card__tags">
+            <span class="tag">Technical PM</span>
+            <span class="tag">Cross-functional</span>
+            <span class="tag">Interoperable APIs</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__tag">Case Study</div>
+          <h3 class="project-card__title">Global Payroll Cost Optimizer</h3>
+          <p class="project-card__company">Ernst &amp; Young LLP</p>
+          <p class="project-card__description">
+            Led a B2B SaaS payroll cost modeling application from product inception to scaled delivery. Managed 15–20 remote engineers and designers, growing to 10+ enterprise clients and delivering over $70M in aggregate client savings.
+          </p>
+          <div class="project-card__meta">
+            <span class="project-card__metric">💰 $20M+ combined annual revenue</span>
+            <span class="project-card__metric">💵 $70M+ in client savings</span>
+          </div>
+          <div class="project-card__tags">
+            <span class="tag">B2B SaaS</span>
+            <span class="tag">Remote Team Leadership</span>
+            <span class="tag">Scaled Delivery</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Skills & Tools ─── -->
+  <section class="section section--alt" id="skills">
+    <div class="container">
+      <h2 class="section__title">Skills & Tools</h2>
+      <p class="section__subtitle">What I bring to the table</p>
+
+      <div class="skills">
+        <div class="skills__group">
+          <h3 class="skills__group-title">Product Craft</h3>
+          <div class="skills__list">
+            <div class="skill-chip">Product Strategy</div>
+            <div class="skill-chip">Roadmapping</div>
+            <div class="skill-chip">User Research</div>
+            <div class="skill-chip">OKR Framework</div>
+            <div class="skill-chip">Competitive Analysis</div>
+            <div class="skill-chip">Prioritization</div>
+          </div>
+        </div>
+
+        <div class="skills__group">
+          <h3 class="skills__group-title">Collaboration</h3>
+          <div class="skills__list">
+            <div class="skill-chip">Cross-functional Leadership</div>
+            <div class="skill-chip">Stakeholder Management</div>
+            <div class="skill-chip">Agile / Scrum</div>
+            <div class="skill-chip">Product Specs</div>
+            <div class="skill-chip">Sprint Planning</div>
+          </div>
+        </div>
+
+        <div class="skills__group">
+          <h3 class="skills__group-title">Tools &amp; Tech</h3>
+          <div class="skills__list">
+            <div class="skill-chip">Figma</div>
+            <div class="skill-chip">Jira</div>
+            <div class="skill-chip">SQL</div>
+            <div class="skill-chip">Python</div>
+            <div class="skill-chip">Google Analytics</div>
+            <div class="skill-chip">Pendo</div>
+            <div class="skill-chip">Excel</div>
+            <div class="skill-chip">Tableau</div>
+            <div class="skill-chip">PowerBI</div>
+            <div class="skill-chip">Qualtrics</div>
+            <div class="skill-chip">Claude Code</div>
+            <div class="skill-chip">HTML / CSS</div>
+          </div>
+        </div>
+
+        <div class="skills__group">
+          <h3 class="skills__group-title">Certifications</h3>
+          <div class="skills__list">
+            <div class="skill-chip">Google Analytics IQ</div>
+            <div class="skill-chip">Certified Scrum Master</div>
+            <div class="skill-chip">Six Sigma Yellow Belt</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Footer / Contact ─── -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer__content">
+        <div class="footer__left">
+          <h2 class="footer__title">Let's work together</h2>
+          <p class="footer__text">
+            I'm open to new product management roles. Feel free to reach out — I'd love to connect.
+          </p>
+        </div>
+        <div class="footer__links">
+          <a href="mailto:Galen.Guevara@gmail.com" class="footer__link">Email</a>
+          <a href="https://www.linkedin.com/in/galen-guevara-66b2b879/" target="_blank" rel="noopener noreferrer" class="footer__link">LinkedIn</a>
+          <a href="#" class="footer__link">Resume PDF</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Galen Guevara. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Smooth scrolling for nav links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+
+    // Nav background appears on scroll
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('nav--scrolled', window.scrollY > 50);
+    });
+
+    // Fade-in on scroll using Intersection Observer
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.15, rootMargin: '0px 0px -30px 0px' });
+
+    document.querySelectorAll('.timeline__item, .project-card, .skills__group').forEach(el => {
+      observer.observe(el);
+    });
+  </script>
+</body>
+</html>
