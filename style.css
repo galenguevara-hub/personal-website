@@ -161,9 +161,15 @@ img {
 .hero__tagline {
   font-size: 1.05rem;
   color: var(--color-text-secondary);
-  max-width: 560px;
+  max-width: 680px;
   margin: 0 auto 40px;
   line-height: 1.7;
+  text-wrap: pretty;
+}
+
+.hero__tagline-line2 {
+  display: block;
+  margin-top: 12px;
 }
 
 .hero__actions {
