@@ -251,13 +251,13 @@ img {
    ───────────────────────────────────────── */
 .timeline {
   position: relative;
-  padding-left: 32px;
+  padding-left: 72px;
 }
 
 .timeline::before {
   content: '';
   position: absolute;
-  left: 11px;
+  left: 36px;
   top: 8px;
   bottom: 8px;
   width: 2px;
@@ -283,10 +283,10 @@ img {
 
 .timeline__marker {
   position: absolute;
-  left: -27px;
-  top: 24px;
-  width: 14px;
-  height: 14px;
+  left: -59px;
+  top: 8px;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
   object-fit: cover;
   background: white;
@@ -644,11 +644,15 @@ img {
   }
 
   .timeline {
-    padding-left: 24px;
+    padding-left: 56px;
+  }
+
+  .timeline::before {
+    left: 28px;
   }
 
   .timeline__marker {
-    left: -19px;
+    left: -52px;
   }
 
   .timeline__card {
